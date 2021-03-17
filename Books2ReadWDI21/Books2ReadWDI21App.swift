@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct Books2ReadWDI21App: App {
+    @StateObject private var modelData = ModelData()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(modelData)
         }
     }
 }

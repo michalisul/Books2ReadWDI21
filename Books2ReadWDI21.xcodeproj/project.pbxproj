@@ -11,6 +11,15 @@
 		02C43FBF2602058B00C20F61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C43FBE2602058B00C20F61 /* ContentView.swift */; };
 		02C43FC12602058C00C20F61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C43FC02602058C00C20F61 /* Assets.xcassets */; };
 		02C43FC42602058C00C20F61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C43FC32602058C00C20F61 /* Preview Assets.xcassets */; };
+		02C43FCF260205F400C20F61 /* BookData.json in Resources */ = {isa = PBXBuildFile; fileRef = 02C43FCE260205F400C20F61 /* BookData.json */; };
+		02C43FD22602061A00C20F61 /* CoverImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C43FD12602061A00C20F61 /* CoverImage.swift */; };
+		02C43FD62602068F00C20F61 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C43FD52602068F00C20F61 /* CircleImage.swift */; };
+		02C43FDA260206E000C20F61 /* BookRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C43FD9260206E000C20F61 /* BookRow.swift */; };
+		02C43FDE2602071400C20F61 /* BookList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C43FDD2602071400C20F61 /* BookList.swift */; };
+		02C43FE12602073E00C20F61 /* BookDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C43FE02602073E00C20F61 /* BookDetail.swift */; };
+		02C43FE42602076A00C20F61 /* CompletedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C43FE32602076A00C20F61 /* CompletedButton.swift */; };
+		02C43FE72602078A00C20F61 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C43FE62602078A00C20F61 /* Book.swift */; };
+		02C43FEA260207B900C20F61 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C43FE9260207B900C20F61 /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +29,15 @@
 		02C43FC02602058C00C20F61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02C43FC32602058C00C20F61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02C43FC52602058C00C20F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C43FCE260205F400C20F61 /* BookData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BookData.json; sourceTree = "<group>"; };
+		02C43FD12602061A00C20F61 /* CoverImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImage.swift; sourceTree = "<group>"; };
+		02C43FD52602068F00C20F61 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		02C43FD9260206E000C20F61 /* BookRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRow.swift; sourceTree = "<group>"; };
+		02C43FDD2602071400C20F61 /* BookList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookList.swift; sourceTree = "<group>"; };
+		02C43FE02602073E00C20F61 /* BookDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetail.swift; sourceTree = "<group>"; };
+		02C43FE32602076A00C20F61 /* CompletedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedButton.swift; sourceTree = "<group>"; };
+		02C43FE62602078A00C20F61 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		02C43FE9260207B900C20F61 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +70,10 @@
 		02C43FBB2602058B00C20F61 /* Books2ReadWDI21 */ = {
 			isa = PBXGroup;
 			children = (
+				02C43FCE260205F400C20F61 /* BookData.json */,
+				02C43FCD260205D500C20F61 /* Views */,
+				02C43FCC260205C700C20F61 /* Models */,
 				02C43FBC2602058B00C20F61 /* Books2ReadWDI21App.swift */,
-				02C43FBE2602058B00C20F61 /* ContentView.swift */,
 				02C43FC02602058C00C20F61 /* Assets.xcassets */,
 				02C43FC52602058C00C20F61 /* Info.plist */,
 				02C43FC22602058C00C20F61 /* Preview Content */,
@@ -67,6 +87,29 @@
 				02C43FC32602058C00C20F61 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02C43FCC260205C700C20F61 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				02C43FE62602078A00C20F61 /* Book.swift */,
+				02C43FE9260207B900C20F61 /* ModelData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		02C43FCD260205D500C20F61 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				02C43FBE2602058B00C20F61 /* ContentView.swift */,
+				02C43FD12602061A00C20F61 /* CoverImage.swift */,
+				02C43FD52602068F00C20F61 /* CircleImage.swift */,
+				02C43FD9260206E000C20F61 /* BookRow.swift */,
+				02C43FDD2602071400C20F61 /* BookList.swift */,
+				02C43FE02602073E00C20F61 /* BookDetail.swift */,
+				02C43FE32602076A00C20F61 /* CompletedButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02C43FC42602058C00C20F61 /* Preview Assets.xcassets in Resources */,
+				02C43FCF260205F400C20F61 /* BookData.json in Resources */,
 				02C43FC12602058C00C20F61 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +182,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02C43FDE2602071400C20F61 /* BookList.swift in Sources */,
+				02C43FE42602076A00C20F61 /* CompletedButton.swift in Sources */,
 				02C43FBF2602058B00C20F61 /* ContentView.swift in Sources */,
+				02C43FDA260206E000C20F61 /* BookRow.swift in Sources */,
+				02C43FD62602068F00C20F61 /* CircleImage.swift in Sources */,
+				02C43FE72602078A00C20F61 /* Book.swift in Sources */,
 				02C43FBD2602058B00C20F61 /* Books2ReadWDI21App.swift in Sources */,
+				02C43FEA260207B900C20F61 /* ModelData.swift in Sources */,
+				02C43FE12602073E00C20F61 /* BookDetail.swift in Sources */,
+				02C43FD22602061A00C20F61 /* CoverImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
