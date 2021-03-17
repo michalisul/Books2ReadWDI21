@@ -7,12 +7,15 @@
 
 import Foundation
 import Combine
+//Firebase imports
 
 final class ModelData: ObservableObject {
     @Published var books: [Book] = load("BookData.json") {
         didSet {
             print("Books changed!")
         }
+        
+        //database related funcs
     }
 }
 

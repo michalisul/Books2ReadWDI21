@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+// Firebase imports
 
 enum BookPriority: String, Codable, Comparable {
     
@@ -41,6 +42,7 @@ struct Book: Hashable, Codable, Identifiable {
     var about: String
     var priority: BookPriority
     var completed: Bool
+    // Firestore properties
     
     private var authorImageName: String
     var authorImage: Image {

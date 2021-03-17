@@ -8,7 +8,11 @@
 import SwiftUI
 
 struct CompletedButton: View {
+    // add reference to ModeData
     @Binding var isSet: Bool
+    // add didSet to isSet
+    
+    //pass index value
     
     var body: some View {
         Button(action: {
@@ -22,6 +26,7 @@ struct CompletedButton: View {
 struct CompletedButton_Previews: PreviewProvider {
     static var previews: some View {
         CompletedButton(isSet: .constant(false))
+        // updating preview
     }
 }
 

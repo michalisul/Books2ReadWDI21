@@ -11,6 +11,8 @@ import SwiftUI
 struct Books2ReadWDI21App: App {
     @StateObject private var modelData = ModelData()
     
+    // Firebase initialization
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

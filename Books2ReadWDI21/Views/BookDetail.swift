@@ -32,6 +32,7 @@ struct BookDetail: View {
                     .foregroundColor(.primary)
                 Spacer()
                 CompletedButton(isSet: $modelData.books[bookIndex].completed)
+                // update button parameters
             }
                     HStack {
                         Text(book.author)

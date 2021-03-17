@@ -32,7 +32,7 @@ struct BookList: View {
                         destination: BookDetail(book: book)) {
                         BookRow(book: book)
                         }
-                }
+                } // adding .ondelete
             }
         .navigationTitle("Books")
         }
