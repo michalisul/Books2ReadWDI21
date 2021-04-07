@@ -32,7 +32,7 @@ struct BookList: View {
                         destination: BookDetail(book: book)) {
                         BookRow(book: book)
                         }
-                } // adding .ondelete
+                } // adding .onDelete { indexSet in if let index = indexSet.first { modelData.deleteBook(sortedByDifficulty[index]) print(indexSet) } }
             }
         .navigationTitle("Books")
         }
